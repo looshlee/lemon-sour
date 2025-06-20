@@ -1,0 +1,11 @@
+name: Large Runner Billing Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-large-runner:
+    runs-on: ubuntu-latest-xl
+    steps:
+      - name: Say hello
+        run: echo "Hello from a large runner!"
